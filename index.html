@@ -9,7 +9,7 @@
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
 </head>
 <body>
-    <header>
+    <header class="md:px-6 lg:px-8">
     
         <nav class="w-full bg-white flex justify-between items-center py-2">
         <div class="flex items-center space-x-5  px-3">
@@ -27,11 +27,11 @@
             
         </div>
         </nav>
-        <section class="flex flex-col">
+        <section class="flex flex-col md:flex-row-reverse">
         <div>
-            <img src="./assets/RWUuNl.jpg" alt="Poster" class="w-full">
+            <img src="./assets/RWUuNl.jpg" alt="Poster" class="w-full h-full">
         </div>
-        <div class="py-16 flex flex-col items-center px-10 bg-[#e6e6e6]">
+        <div class="py-16 flex flex-col items-center justify-center px-10 bg-[#e6e6e6] md:bg-[#f2f2f2]">
             <h1 class="font-semibold text-xl text-[#303030] mb-1" >
                 MicroSoft 365
             </h1>
@@ -44,28 +44,28 @@
         </section>
     </header>
     <main>
-        <section class="services px-8 my-14 space-y-6">
-        <div class="flex flex-row justify-start items-center space-x-3">
+        <section class="services px-8 my-14 space-y-6 md:flex md:flex-row md:items-center md:space-y-0 md:gap-10 md:justify-center md:my-20">
+        <div class="flex flex-row justify-start items-center space-x-3 md:flex-col ">
             <img src="./assets/grid.png" alt="Micrsoft grid" class="w-5 cursor-pointer">
-            <p class="text-black font-semibold text-[1rem] cursor-pointer">Choose your Microsoft 365</p>
+            <p class="text-black font-semibold text-[1rem] cursor-pointer text-center md:mt-3">Choose your Microsoft 365</p>
         </div>
 
-        <div class="flex flex-row justify-start items-center space-x-3">
+        <div class="flex flex-row justify-start items-center space-x-3 md:flex-col">
             <img src="./assets/surface.webp" alt="Micrsoft grid" class="w-5 cursor-pointer">
-            <p class="text-black font-semibold text-[1rem] cursor-pointer">Explore Surface devices</p>
+            <p class="text-black font-semibold text-[1rem] cursor-pointer text-center md:mt-3">Explore Surface devices</p>
         </div>
 
-        <div class="flex flex-row justify-start items-center space-x-3">
+        <div class="flex flex-row justify-start items-center space-x-3 md:flex-col">
             <img src="./assets/xbox.webp" alt="Micrsoft grid" class="w-5 cursor-pointer">
-            <p class="text-black font-semibold text-[1rem] cursor-pointer">Buy Xbox games</p>
+            <p class="text-black font-semibold text-[1rem] cursor-pointer text-center md:mt-3">Buy Xbox games</p>
         </div>
 
-        <div class="flex flex-row justify-start items-center space-x-3">
+        <div class="flex flex-row justify-start items-center space-x-3 md:flex-col">
             <img src="./assets/grid.png" alt="Micrsoft grid" class="w-5 cursor-pointer">
-            <p class="text-black font-semibold text-[1rem] cursor-pointer">Get Windows 11</p>
+            <p class="text-black font-semibold text-[1rem] cursor-pointer text-center md:mt-3">Get Windows 11</p>
         </div>
         </section>
-        <section class="products flex flex-col px-5 space-y-12">
+        <section class="products flex flex-col px-5 space-y-12 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-6 md:grid-cols-4 md:gap-3 lg:gap-6">
             <div class="flex flex-col">
                 <img src="./assets//laptop.webp" alt="Surface laptop" class="w-full">
                 <div class="flex flex-col items-start">
@@ -116,11 +116,11 @@
             </div>
         </section>
 
-        <section class="banner w-full flex flex-col my-12 bg-[#e6e6e6]">
+        <section class="banner w-full flex flex-col my-12  md:px-6 lg:px-8">
 
             <img src="./assets/RE3hFDE.webp" alt="" class="w-full">
 
-            <div class="flex flex-col items-center justify-center py-28">
+            <div class="flex flex-col items-center justify-center py-28 bg-[#e6e6e6]">
                 <h1 class="text-xl font-semibold text-[#161616]">
                     MicroSoft OneDrive
                 </h1>
@@ -133,11 +133,11 @@
             </div>
         </section>
 
-        <section class="businesses px-5">
+        <section class="businesses px-5 ">
             <h1 class="text-2xl text-black font-semibold mb-4">
                 For business
             </h1>
-            <div class="flex flex-col space-y-12">
+            <div class="flex flex-col space-y-12 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-6 md:grid-cols-4 md:gap-3 lg:gap-6">
                 <div class="flex flex-col">
                     <img src="./assets/RWKmlf.webp" alt="Surface laptop" class="w-full">
                     <div class="flex flex-col items-start">
@@ -192,7 +192,7 @@
             </div>
         </section>
 
-        <section class="covid w-full bg-[#e6e6e6] flex flex-col items-center py-4 mt-8">
+        <section class="covid w-full bg-[#e6e6e6] flex flex-col items-center py-4 mt-8 md:w-11/12 md:mx-auto">
             <h1 class="text-2xl text-black font-semibold text-center py-2">
                 Microsoft's response to<br> COVID-19
             </h1>
@@ -212,7 +212,7 @@
 
     </main>
 
-    <footer class="flex flex-col bg-[#f2f2f2] px-6 pt-10 pb-6">
+    <footer class="flex flex-col bg-[#f2f2f2] px-6 pt-10 sm:grid sm:grid-cols-3 sm:gap-2 lg:grid-cols-6 lg:gap-6 ">
         <div class="flex flex-col space-y-4 mb-12">
             <h1 class="font-semibold text-[#333]">What's new</h1>
             <p class="text-xs cursor-pointer">Microsoft 365</p>
@@ -274,10 +274,9 @@
                 Security
             </p>
         </div>
-
-        <div class="text-center text-xs tracking-wide">
-            All rights reserved &copy; Microsoft 2022
-        </div>
     </footer>
+    <div class="text-center text-xs tracking-wide bg-[#f2f2f2] pb-6">
+        All rights reserved &copy; Microsoft 2022
+    </div>
 </body>
 </html>
